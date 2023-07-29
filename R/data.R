@@ -9,4 +9,4 @@
 #' \item{imgt}{imgt format}
 #' \item{species}{speices}
 #' }
-"adaptive_imgt"
+"adaptive_imgt_mapping"
