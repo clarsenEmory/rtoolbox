@@ -6,15 +6,23 @@ Authors@R:
     person(given = "Christian", family = "Larsen", 
     email = "clarsen@emory.edu",  role = c("aut", "cre"),
     comment = c(ORCID = "0000-0001-6573-2649"))
-    person("Geeta", "Karadkhele", email = "geeta.karadkhele@emory.edu", role = c("aut", "cre"))
-Description: A convience package for LarsenLab.
-    Contains common functions for immunopeptidomics, T cell receptor, single cell analyses.
+    person("Geeta", "Karadkhele", 
+    email = "geeta.karadkhele@emory.edu",
+    role = c("aut", "cre"))
+Description: A convience package of functions and data for LarsenLab.
+    Contains common functions and data for immunopeptidomics, T cell receptor, single cell analyses.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports: 
-    magrittr
+    magrittr,
+    stringr
 Depends: 
     R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/clarsenEmory/rtoolbox
+BugReports: https://github.com/clarsenEmory/rtoolbox/issues
